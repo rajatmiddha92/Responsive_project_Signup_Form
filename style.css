@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ff7978;
+}
+.font-l {
+  font-size: 2em;
+}
+.font-m {
+  font-size: 0.875em;
+}
+.font-s {
+  font-size: 0.75em;
+}
+.fw1 {
+  font-weight: 700;
+}
+.fw2 {
+  font-weight: 600;
+}
+.fw3 {
+  font-weight: 400;
+}
+.ff1 {
+  font-family: "Montserrat", sans-serif;
+}
+.ff2 {
+  font-family: "Open Sans", sans-serif;
+}
+.c1 {
+  color: #ffffff;
+}
+.c2 {
+  color: #a8a8a8;
+}
+.c3 {
+  color: #ff7978;
+}
+.container {
+  text-align: center;
+  margin-left: 1.82em;
+  margin-right: 1.57em;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 1em;
+}
+
+#firstName {
+  border: 1px solid #5c54a1;
+}
+
+.bloc {
+  display: block;
+}
+.part-1:first-child {
+  margin-top: 4.25em;
+}
+.para {
+  margin-top: 1.6875em;
+  padding-bottom: 4em;
+}
+.head-1 {
+  height: 78px;
+  margin-bottom: 1em;
+  background: #5d55a1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+}
+.m-x-1 {
+  padding-top: 1.25em;
+}
+.forms {
+  padding-top: 1.44em;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+#firstName,
+#lastName,
+#eMail,
+#passWord {
+  padding-left: 2em;
+  color: #a8a8a8;
+}
+#btn {
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  background-color: #37cc89;
+}
+form:last-child {
+  padding-bottom: 1.2em;
+}
+
+@media only screen and (min-width: 35em) {
+  .container {
+    display: flex;
+  }
+  .part-1 {
+    width: 50%;
+  }
+  .part-2 {
+    width: 50%;
+  }
+  .font-xl {
+    font-size: 3.38em;
+  }
+  .font-x {
+    font-size: 0.88em;
+  }
+  .head-1 {
+    display: flex;
+    margin-top: 8.5em;
+    margin-bottom: 1.38em;
+    justify-content: center;
+    width: 68%;
+    margin-right: 10.38em;
+  }
+  .bloc {
+    display: inline;
+  }
+  .m-x-1,
+  .m-x-2 {
+    padding-top: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .m-x-2 {
+    margin-left: 0.2em;
+  }
+  .m-x-3 {
+    margin-top: 18.75rem;
+    margin-bottom: 1.63rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  input {
+    height: 56px;
+    font-size: 1em;
+    margin-bottom: 1.44em;
+  }
+  form:last-child {
+    padding-bottom: 2.82em;
+  }
+  .p-x-1 {
+    padding-left: 10em;
+    padding-right: 11em;
+  }
+  .forms {
+    width: 68%;
+    padding-top: 2.57em;
+    margin-right: 10.38em;
+  }
+}
