@@ -77,11 +77,18 @@ input:hover {
   background: #5d55a1 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 4px;
-  transition-duration: 3s;
-  transition-delay: 1.5s;
+  animation-name: size;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-iteration-count: 4;
 }
-.head-1:hover {
-  transform: scale(1.5);
+@keyframes size {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 .m-x-1 {
   padding-top: 1.25em;
