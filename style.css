@@ -57,8 +57,8 @@ input {
   margin-bottom: 1em;
 }
 
-#firstName {
-  border: 1px solid #5c54a1;
+input:hover {
+  border: 2px solid #5c54a1;
 }
 
 .bloc {
@@ -77,6 +77,11 @@ input {
   background: #5d55a1 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 4px;
+  transition-duration: 3s;
+  transition-delay: 1.5s;
+}
+.head-1:hover {
+  transform: scale(1.5);
 }
 .m-x-1 {
   padding-top: 1.25em;
@@ -91,6 +96,8 @@ input {
 #eMail,
 #passWord {
   padding-left: 2em;
+}
+input::placeholder {
   color: #a8a8a8;
 }
 #btn {
